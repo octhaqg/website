@@ -65,9 +65,13 @@ h3 b{color:#c21b6b;font-weight:inherit}
 .content-skewed-left{perspective-origin:left center}.content-skewed{perspective:1500px;transform-style:preserve-3d}.content-skewed-left .content-skewed-item{transform:rotateY(-30deg) rotateX(15deg);-webkit-backface-visibility:hidden;backface-visibility:hidden}.content-skewed-right{perspective-origin:right center}.content-skewed-right .content-skewed-item{transform:rotateY(30deg) rotateX(15deg);-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 
-.svg-border-rounded svg{position:absolute;bottom:-70px;left:0;height:19rem;width:100%}.svg-border-rounded.text-dark,footer.bg-dark{background:#181b1f!important;color:#181b1f!important}
+.svg-border-rounded svg{position:absolute;bottom:-70px;left:0;width:100%}
+@media (max-width: 765px){.svg-border-rounded svg{bottom:-33px}}
+@media (min-width: 1850px){.svg-border-rounded svg{bottom:-130px}}
+svg{overflow:hidden;vertical-align:middle}.svg-border-rounded.text-dark,footer.bg-dark{background:#181b1f!important;color:#181b1f!important}
 footer{padding-top:120px}
 footer.bg-dark,footer a{color:#fff!important}
+footer.bg-dark{color:#ffffffa6!important}
 .icon-list-social i{font-size:2rem}
 .icon-list-social a:not(:last-child){margin-right:8px}
 
@@ -171,7 +175,7 @@ footer.bg-dark,footer a{color:#fff!important}
 				</div>
 			</div>
 		</section>
-		<style>/*.products{padding-top:140px;padding-bottom:120px}.products .row:not(:last-child){margin-bottom:9rem}*/@media(max-width:767px){.products .row:not(:last-child){margin-bottom:120px}}.products .row{height:calc(100vh - 120px);margin-bottom:80px}.products .row:last-child{height:calc(100vh - 120px + 234px)}.feature-desc{margin-top:5.5rem}.feature-desc h3{color:#fff;font-size:2.75rem;line-height:3rem;margin-bottom:1rem}.feature-desc p{color:#ccc}.products h2{color:#fff;font-size:2.25rem}</style>
+		<style>/*.products{padding-top:140px;padding-bottom:120px}.products .row:not(:last-child){margin-bottom:9rem}*/@media(max-width:767px){.products .row:not(:last-child){margin-bottom:120px}}.products .row{height:calc(100vh - 120px);margin-bottom:80px}.products .row:last-child{height:calc(100vh - 120px + 160px)}.feature-desc{margin-top:5.5rem}.feature-desc h3{color:#fff;font-size:2.75rem;line-height:3rem;margin-bottom:1rem}.feature-desc p{color:#ccc}.products h2{color:#fff;font-size:2.25rem}</style>
 		<section class="products" id="products">
 			<div class="container">
 				<div class="row">
